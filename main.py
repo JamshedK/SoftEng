@@ -9,3 +9,8 @@ def product (array):
     for num in array:
         res = res = res * num
     return res
+
+if __name__ == '__main__':
+    array = [1,2,3,4]
+    print(sum(array))
+    print(product(array))
