@@ -1,9 +1,11 @@
+# The sum of all array elements
 def sum(array):
     total = 0
     for num in array:
         total += num
     return total
 
+# Multiplies every element in the array
 def product (array):
     res = 1
     for num in array:
